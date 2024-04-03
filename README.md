@@ -7,4 +7,7 @@ Read me files uses marcdown syntax to edit eny text , formulas, codes.
 - Python
 - GitHub
 
-## Second level heading
+## My major projects
+1. Java online banking app
+2. Pyhton AI tool
+3. My own social network
