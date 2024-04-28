@@ -33,6 +33,7 @@
 
 ### Where teams manage project:
 - https://miro.com
+- https://about.gitlab.com 
 
 ### Tech innovation blogs...
 - https://techcrunch.com/?guccounter=1
