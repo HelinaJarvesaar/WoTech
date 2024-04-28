@@ -36,6 +36,10 @@
 
 ### Tech innovation blogs...
 - https://techcrunch.com/?guccounter=1
+- https://daily.dev/?r=0
+- https://www.ituudised.ee/s/veebiseminarid-247
+- https://talendiportaal.ee
+- 
 
 ### AI
 - https://huggingface.co
