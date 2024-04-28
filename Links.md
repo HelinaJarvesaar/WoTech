@@ -29,10 +29,13 @@
 2. https://www.w3schools.com/java/default.asp#gsc.tab=0
 3. https://www.programiz.com/python-programming/for-loop#google_vignette
 4. https://www.dummies.com/category/books/java-33602/ - books
+5. https://docs.oracle.com/javase/tutorial/java/index.html - java
 
 ### Where teams manage project:
 - https://miro.com
 
 ### Tech innovation blogs...
 - https://techcrunch.com/?guccounter=1
-- 
+
+### AI
+- https://huggingface.co
