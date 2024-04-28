@@ -1,12 +1,38 @@
-### 1. saab muuta koodi värviliseks:
-https://gist.github.com/matthewzring/9f7bbfd102003963f9be7dbcf7d40e51#syntax-highlighting
+### Syntax highlighting (markdown):
+- https://gist.github.com/matthewzring/9f7bbfd102003963f9be7dbcf7d40e51#syntax-highlighting
+- https://commonmark.org/help/
 
-### 2. GitHub Student Developer pack
-https://www.freecodecamp.org/news/github-student-developer-pack/
+### GitHub:
+- https://github.com/skills/introduction-to-github?tab=readme-ov-file
+- https://www.freecodecamp.org/news/github-student-developer-pack/
+- https://github.com/jnguyen095/clean-code/blob/master/Clean.Code.A.Handbook.of.Agile.Software.Craftsmanship.pdf - "Clean code" github book
+- https://github.com/Dylan-Israel/ultimate-coding-resources?tab=readme-ov-file - Coding recourses list
+- https://medium.com/codex/7-best-github-repositories-to-learn-any-programming-language-in-2023-386d8364e578 - GitHub repositories 
 
-### Datorium WoTech java
-https://github.com/datorium-wotech/java-introduction/tree/main
+### Datorium WoTech java:
+- https://github.com/datorium-wotech/java-introduction/tree/main
+- https://github.com/orgs/datorium-wotech/repositories
 
 ### Stripe API
-https://docs.stripe.com/api/balance/balance_object
+- https://docs.stripe.com/api/balance/balance_object
 
+### Games from Oskars:
+1. https://www.google.com/logos/2017/logo17/logo17.html?hl=en
+2. https://tomorrowcorporation.com/humanresourcemachine
+   (buy it here: https://store.steampowered.com/app/375820/Human_Resource_Machine/)
+4. https://register.ubisoft.com/rabbids-coding/en-US?isSso=true&refreshStatus=noLoginData - free, but must register
+5. https://store.steampowered.com/app/792100/7_Billion_Humans/ - more advanced
+6. https://studio.code.org/s/express-2023 - free, need to register to save progress
+
+### Selflearning sites:
+1. https://www.javatpoint.com
+2. https://www.w3schools.com/java/default.asp#gsc.tab=0
+3. https://www.programiz.com/python-programming/for-loop#google_vignette
+4. https://www.dummies.com/category/books/java-33602/ - books
+
+### Where teams manage project:
+- https://miro.com
+
+### Tech innovation blogs...
+- https://techcrunch.com/?guccounter=1
+- 
