@@ -36,7 +36,7 @@
 - https://about.gitlab.com 
 
 ### Tech innovation blogs...
-- https://techcrunch.com/?guccounter=1
+- https://techcrunch.com/?guccounter=1 - Elchin loeb sealt IT uudiseid
 - https://daily.dev/?r=0
 - https://www.ituudised.ee/s/veebiseminarid-247
 - https://talendiportaal.ee
