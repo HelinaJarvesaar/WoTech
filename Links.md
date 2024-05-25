@@ -37,7 +37,7 @@
 
 ### Tech innovation blogs...
 - https://techcrunch.com/?guccounter=1 - Elchin loeb sealt IT uudiseid
-- https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US%3Aen
+- https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US%3Aen - Elchin loeb IT uudiseid
 - https://daily.dev/?r=0
 - https://www.ituudised.ee/s/veebiseminarid-247
 - https://talendiportaal.ee
