@@ -1,37 +1,57 @@
 ```py
 import datetime
 
+# This is the Client class
 class Client:
   pass  #nothing happens here
 
+# This is a class variable
   number_of_clients = 0
 
+# Constructor method
   def __init__ (self, id, name):    # i dont't require account, cause I dont want to add list
+
+# Instance variables
     self.id = id                    # self.id ehk each clients id = id
     self.name = name
     self.accounts =[]
     Client.number_of_clients += 1
-  
+
+# Method to add an account to the client  
   def add_account(self, account):
     self.accounts.append(account)    # adding new account
 
+
+# This is the Account class
 class Account:
-  def __init__ (self, number, currency, balance = 0.0): # it will ask for blance but if we do not provide, then it is 0 
+
+# Constructor method with optional initial balance
+  def __init__ (self, number, currency, balance = 0.0): # it will ask for blance but if we do not provide, then it is 0
+
+# Instance variables
     self.number = number
     self.currency = currency
     self.balance = balance
     self.transactions = []
 
+# Method to make a deposit
   def make_deposite(self, amount, note):    # every account can make deposit
     self.transactions.append(Transaction(self.currency, amount, note))
     self.balance += amount
 
+# Method to make a withdrawal
   def make_withdrawal (self,amount, note):
     self.transactions.append(Transaction(self.currency, -amount, note))
     self.balance -= amount  # every account can make withdarwal
 
+
+# This is the Transaction class
 class Transaction:
+
+# Constructor method
   def __init__(self, currency, amount, note):
+
+# Instance variables
     self.currency = currency
     self.amount = amount
     self.note = note
