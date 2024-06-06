@@ -28,17 +28,22 @@ public class TaskManager{
   public void addTask(Task task){
     tasks.add(task);
   }
-
+  
   public ArrayList<Task> getTasks(){
     return tasks;
   }
-  
+
+  public void setTaskAsDone(String taskName){
+    tasks.stream()
+      .filter(x -> x.name.equals(taskName))
+      .findFirst()
+      .ifPresent(x -> x.isDone = true);
+  }
   //BONUS:
   //Get a random quote to stop procrastinating
   //A list of undone tasks - filter
   //A list of done tasks - filter
 }
-
 
 
 public class Task{
@@ -55,8 +60,6 @@ public class Task{
 
 
 
-
-
 import java.util.Scanner;
 
 public class Main { //Is the UI - frontend
@@ -64,7 +67,7 @@ public class Main { //Is the UI - frontend
     public static TaskManager taskManager = new TaskManager();
 
     public static void main(String[] args) {
-        createTask();
+        createTask();      
         showToDoList();
         //Create a menu:
         //Put it in a while loop
@@ -73,6 +76,28 @@ public class Main { //Is the UI - frontend
         //if the user presses 2, we call showTodoList
         //if the user presses 3, mark a task with isDone = true
         //if the user presses x, close the loop
+
+        while (true){
+          Scanner scanner = new Scanner(System.in);
+          System.out.println("Press 1 to create a task");
+          System.out.println("Press 2 to show the list");
+          System.out.println("Press 3 to mark a task as done");
+
+          var userInput = scanner.nextLine();
+          if (userInput.equals("1")){
+            createTask();
+          }else if (userInput.equals("2")){
+            showToDoList();
+          }else if (userInput.equals("3")){
+            showToDoList();
+            System.out.println("Enter the finshed task name: ");
+            var taskName = scanner.nextLine();
+            taskManager.setTaskAsDone(taskName);
+          }else{
+            break;
+          }
+          
+        }
     }
 
     public static void createTask(){
