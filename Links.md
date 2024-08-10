@@ -49,3 +49,6 @@
 ### Py MATPLOTLIB (data visualizing):
 - https://matplotlib.org/stable/gallery/lines_bars_and_markers/curve_error_band.html#sphx-glr-gallery-lines-bars-and-markers-curve-error-band-py
 - https://matplotlib.org/stable/gallery/index.html
+
+### Pandas
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
