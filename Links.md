@@ -57,4 +57,6 @@ https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
 https://seaborn.pydata.org/generated/seaborn.regplot.html
 ### Linear regression
 https://www.youtube.com/watch?v=7ArmBVF2dCs
+### Scikit-learn lib
+https://scikit-learn.org/stable/
 
