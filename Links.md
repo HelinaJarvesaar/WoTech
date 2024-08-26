@@ -60,3 +60,5 @@ https://www.youtube.com/watch?v=7ArmBVF2dCs
 ### Scikit-learn lib
 https://scikit-learn.org/stable/
 
+https://survey.stackoverflow.co/2024/
+
