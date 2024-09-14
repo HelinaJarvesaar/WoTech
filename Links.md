@@ -62,3 +62,13 @@ https://scikit-learn.org/stable/
 
 https://survey.stackoverflow.co/2024/
 
+### SQLite
+https://sqliteonline.com
+
+### VS Code & Git
+https://code.visualstudio.com
+https://git-scm.com/downloads
+https://www.youtube.com/watch?v=mJ-qvsxPHpY - Git tutorial
+
+
+
