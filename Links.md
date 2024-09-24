@@ -70,7 +70,9 @@ https://code.visualstudio.com
 https://git-scm.com/downloads
 https://www.youtube.com/watch?v=mJ-qvsxPHpY - Git tutorial
 
-## Java design Patterns: https://java-design-patterns.com/patterns/
+## Java design Patterns: 
+https://java-design-patterns.com/patterns/
+https://google.github.io/styleguide/javaguide.html
 
 
 
