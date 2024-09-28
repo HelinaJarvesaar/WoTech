@@ -1,3 +1,4 @@
+```java
 public class Main {
     public static void main(String[] args) { // Main method
         int size = 10;
@@ -52,3 +53,4 @@ public class Main {
 
     }
 }
+```
