@@ -76,3 +76,6 @@ https://google.github.io/styleguide/javaguide.html
 
 
 https://www.geeksforgeeks.org/dependency-injection-di-design-pattern/
+
+Python:
+https://www.w3schools.com/python/python_regex.asp
