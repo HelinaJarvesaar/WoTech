@@ -38,7 +38,7 @@ public class City {
 
 CityService.java
 ```java
-ackage com.example.demo.CityLottery;
+package com.example.demo.CityLottery;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -46,49 +46,60 @@ import java.util.Random;
 public class CityService {
 
     private ICityRepository cityRepository;
+
     public CityService(ICityRepository cityRepository) {
         this.cityRepository = cityRepository;
     }
     public City getRandomCity() throws Exception {
-        // 0. Prepare a list of cities
-        ArrayList<City> cities = new ArrayList<>();
 
-        var goog = new City("Goog", 75);
-        var wocity = new City("Wocity", 25);
-        var oskarscity = new City("Oskars city", 25);
-        cities.add(goog);
-        cities.add(wocity);
-        cities.add(oskarscity);
+        // 1. Get the list of cities (assumed to be populated elsewhere)
+        ArrayList<City> cities = new ArrayList<>();  // Assume the list is populated elsewhere
+
+        // 2. Calculate the total population of all cities
+        int totalCitizenCount = calculateTotalPopulation(cities);
+
+        // 3. Generate a random number based on the total population
+        int randomValue = getRandomValue(totalCitizenCount);
+
+        // 4. Select a city based on the random value
+        return selectCity(cities, randomValue);
+
+    }
 
         //1. Count total amount of citizens -> 100
-        var totalCitizenCount = 0;
-
-        for (City city: cities){
-            totalCitizenCount += city.getPopulation();
+        public int calculateTotalPopulation(ArrayList<City> cities){
+            int totalCitizenCount = 0;
+            for (City city: cities){
+                totalCitizenCount += city.getPopulation();
+            }
+            return totalCitizenCount;
         }
 
         //2. Choose random number -> 56
-        Random random = new Random();
-        int randomValue = random.nextInt(totalCitizenCount);
+        public int getRandomValue(int totalCitizenCount){
+            Random random = new Random();
+            int randomValue = random.nextInt(totalCitizenCount);
+            return randomValue;
+        }
 
-        //3. Loop going through all of the cities
+        //3. Loop going through all the cities
         //4. Choose the city with correct lottery ticket
         //population -> 25
         //randomValue -> 56
         //We subtract 56 - 25 = 31
         // BECAUSE ITS NOT BELOW OR EQUAL TO 0, GO TO NEXT
         // 31 - 75 -> because it's below 0, we choose this city
+        // GET CITY
 
-       //GETCITY
-        for(City city: cities){
-            randomValue -= city.getPopulation();
-
-            if(randomValue <= 0){
-                return city;
+        public City selectCity(ArrayList<City> cities,int randomValue) throws Exception{
+            for(City city: cities){
+                randomValue -= city.getPopulation();
+                if(randomValue <= 0){
+                    return city;
+                }
             }
+            throw new Exception("Something wrong");
         }
-        throw new Exception("Something wrong");
-    }
 }
 ```
 CityRepository.java
