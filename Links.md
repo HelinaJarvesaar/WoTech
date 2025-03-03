@@ -9,7 +9,31 @@
 - https://github.com/Dylan-Israel/ultimate-coding-resources?tab=readme-ov-file - Coding recourses list
 - https://medium.com/codex/7-best-github-repositories-to-learn-any-programming-language-in-2023-386d8364e578 - GitHub repositories 
 
-### Datorium WoTech java:
+### VS Code & Git
+- https://code.visualstudio.com
+- https://git-scm.com/downloads
+- https://www.youtube.com/watch?v=mJ-qvsxPHpY - Git tutorial
+
+### Where teams manage project:
+- https://miro.com
+- https://about.gitlab.com
+
+### Tech innovation blogs...
+- https://techcrunch.com/?guccounter=1 - Elchin loeb sealt IT uudiseid
+- https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US%3Aen - Elchin loeb IT uudiseid
+- https://daily.dev/?r=0
+- https://www.ituudised.ee/s/veebiseminarid-247
+- https://talendiportaal.ee
+
+
+## AI
+
+- https://huggingface.co
+
+
+## JAVA
+
+### Datorium WoTech
 - https://github.com/datorium-wotech/java-introduction/tree/main
 - https://github.com/orgs/datorium-wotech/repositories
 
@@ -31,20 +55,19 @@
 4. https://www.dummies.com/category/books/java-33602/ - books
 5. https://docs.oracle.com/javase/tutorial/java/index.html - java
 
-### Where teams manage project:
-- https://miro.com
-- https://about.gitlab.com 
+### Java design Patterns: 
+- https://java-design-patterns.com/patterns/
+- https://google.github.io/styleguide/javaguide.html
 
-### Tech innovation blogs...
-- https://techcrunch.com/?guccounter=1 - Elchin loeb sealt IT uudiseid
-- https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US%3Aen - Elchin loeb IT uudiseid
-- https://daily.dev/?r=0
-- https://www.ituudised.ee/s/veebiseminarid-247
-- https://talendiportaal.ee
-- 
+### JAVA track:
+- https://roadmap.sh/java
 
-### AI
-- https://huggingface.co
+### Dependency-injection
+https://www.geeksforgeeks.org/dependency-injection-di-design-pattern/
+
+
+
+## PYTHON
 
 ### Py MATPLOTLIB (data visualizing):
 - https://matplotlib.org/stable/gallery/lines_bars_and_markers/curve_error_band.html#sphx-glr-gallery-lines-bars-and-markers-curve-error-band-py
@@ -62,23 +85,9 @@ https://scikit-learn.org/stable/
 
 https://survey.stackoverflow.co/2024/
 
-### SQLite
-https://sqliteonline.com
-
-### VS Code & Git
-https://code.visualstudio.com
-https://git-scm.com/downloads
-https://www.youtube.com/watch?v=mJ-qvsxPHpY - Git tutorial
-
-## Java design Patterns: 
-https://java-design-patterns.com/patterns/
-https://google.github.io/styleguide/javaguide.html
-
-
-https://www.geeksforgeeks.org/dependency-injection-di-design-pattern/
-
-Python:
+### Regex
 https://www.w3schools.com/python/python_regex.asp
 
-JAVA track:
-https://roadmap.sh/java
+
+## SQLite
+https://sqliteonline.com
