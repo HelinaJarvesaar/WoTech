@@ -1,12 +1,12 @@
-Read me files uses marcdown syntax to edit eny text , formulas, codes.
+Read me files uses marcdown syntax to edit any text , formulas, codes.
 
 # Welcome to my repository 🤓
 
-## My Skills
+## My WoTech Skills
 - Java
 - Python
+- SQLite
 
 ## My major projects
 1. Java online banking app
 2. Pyhton AI tool
-3. My own social network
