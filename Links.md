@@ -26,12 +26,12 @@
 - https://talendiportaal.ee
 
 
-## AI
+# AI
 
 - https://huggingface.co
 
 
-## JAVA
+# JAVA
 
 ### Datorium WoTech
 - https://github.com/datorium-wotech/java-introduction/tree/main
@@ -67,7 +67,7 @@ https://www.geeksforgeeks.org/dependency-injection-di-design-pattern/
 
 
 
-## PYTHON
+# PYTHON
 
 ### Py MATPLOTLIB (data visualizing):
 - https://matplotlib.org/stable/gallery/lines_bars_and_markers/curve_error_band.html#sphx-glr-gallery-lines-bars-and-markers-curve-error-band-py
