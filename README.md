@@ -6,7 +6,3 @@ Read me files uses marcdown syntax to edit any text , formulas, codes.
 - Java
 - Python
 - SQLite
-
-## My major projects
-1. Java online banking app
-2. Pyhton AI tool
